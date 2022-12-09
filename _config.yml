@@ -33,6 +33,7 @@ github_username:  kakunge
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll_admin:
+  hidden_links:
+  homepage: ""
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
